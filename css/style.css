@@ -373,8 +373,12 @@ img {
 }
 
 
-/* Tablets and Under Responsive */
+/* Tablets Responsiveness */
 @media (max-width: 768px) {
+    .container {
+        padding-left: 40px;
+    }
+
     .navbar {
         height: 200px;
     }
@@ -441,10 +445,11 @@ img {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 500px) {
+@media (max-width: 425px) {
     
     .navbar {
         height: 250px;
+        width: 425px;
     }
 
     .navbar .flex {
@@ -453,11 +458,10 @@ img {
 
     .card2 {
         margin-top: 20px;
-
     }
     
     .navbar ul {
-        padding: 8px;
+        padding: 1px;
         background-color: rgb(63, 58, 58);
         margin-bottom: 30px;
         border-radius: 10px;
@@ -469,18 +473,30 @@ img {
 
     .container-directions {
         overflow: hidden;
-        height: 650px;
-        width: 500px;
+        height: 500px;
+        width: 360px;
     }
 
+    .card4 {
+        height: 500px;
+        width: 360px;
+    }
+    
     .gmap_canvas {
-        padding-left: 80px;
-       
+        overflow:hidden;
+        background:none!important;
+        height:360px;
+        width:350px;
+        padding-left: 60px;
+    }
+
+    .gmap_canvas iframe {
+        height: 320px;
+        width: 300px;
     }
 
     .card5 {
         text-align: center;
-        padding-bottom: 10px;
     }
 
 }
