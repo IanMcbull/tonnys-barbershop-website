@@ -444,6 +444,83 @@ img {
     }
 }
 
+/* Mobile-Tab Responsiveness */
+@media (max-width: 634px) {
+    .navbar {
+        height: 250px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(63, 58, 58); 
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .card4 {
+        height: 420px;
+        width: 360px;
+        overflow: hidden;
+    }
+    
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:360px;
+        width:350px;
+        padding-left: 60px;
+    }
+
+    .gmap_canvas iframe {
+        height: 320px;
+        width: 300px;
+    }
+
+}
+
+/* Mobile * Responsiveness */
+@media (max-width: 500px) {
+    .navbar {
+        height: 250px;     
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(63, 58, 58); 
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .card4 {
+        height: 420px;
+        width: 360px;
+        overflow: hidden;
+    }
+    
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:360px;
+        width:350px;
+        padding-left: 60px;
+    }
+
+    .gmap_canvas iframe {
+        height: 320px;
+        width: 300px;
+    }
+}
+
 /* Mobile L Responsiveness */
 @media (max-width: 425px) {
     
