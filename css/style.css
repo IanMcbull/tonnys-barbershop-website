@@ -445,10 +445,10 @@ img {
 }
 
 /* Mobile-Tab Responsiveness */
-@media (max-width: 401px) {
+@media (max-width: 411px) {
     .navbar {
         height: auto;
-        max-width: 401px;
+        max-width: 411px;
     }
 
     .navbar .flex {
