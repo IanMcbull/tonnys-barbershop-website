@@ -470,6 +470,11 @@ img {
         font-size: 1.7rem;    
     }
 
+    .showcase-form {
+        height: auto;
+        max-width: 401px;
+    }
+
     .shop {
         margin-left: 10px;
     }
