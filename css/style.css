@@ -444,7 +444,7 @@ img {
     }
 }
 
-/* Mobile Responsiveness */
+/* Mobile L Responsiveness */
 @media (max-width: 425px) {
     
     .navbar {
@@ -501,3 +501,101 @@ img {
 
 }
 
+/* Mobile M Responsiveness */
+@media (max-width: 375px) {
+    .navbar {
+        height: 250px;
+        width: 375px;
+    }
+    
+    .navbar .flex {
+        flex-direction: column;
+    }
+    
+    .card2 {
+        margin-top: 20px;
+    }
+    
+    .navbar ul {
+        padding: 1px;
+        background-color: rgb(63, 58, 58);
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .navbar li a {
+        font-size: 1.7rem;    
+    }
+    
+    .showcase-form {
+        width: 375px;
+    }
+
+    .card5 {
+        height: 270px;
+        width: 350px;
+        margin-left: 1px;
+        padding-left: 8px;
+    }
+}
+
+/* Mobile S Responsiveness */
+@media (max-width: 320px) {
+    .navbar {
+        height: 280px;
+        width: 320px;
+    }
+
+    .navbar li a {
+        font-size: 1.2rem;    
+    }
+
+    .showcase-form {
+        width: 320px;
+    }
+
+    .container-directions {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 400px;
+        width: 300px;
+    }
+
+    .card4 {
+        height: 400px;
+        width: 300px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height: 360px;
+        width: 300px;
+        padding-left: 70px;
+        padding-right: 0px;
+    }
+
+    .gmap_canvas iframe {
+        height: 320px;
+        width: 245px;
+    }
+
+    .mapouter {
+        height: 360px;
+        width: 290px;
+    }
+
+    .card5 {
+        margin: 0px;        
+        height: 230px;
+        width: 310px;
+        overflow: hidden;
+    }
+
+    .card5 a {
+        margin: 0;
+    }
+    
+}
