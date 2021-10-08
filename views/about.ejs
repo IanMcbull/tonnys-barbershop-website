@@ -16,18 +16,7 @@
 <body>
 
     <!-- Navbar -->
-        <div class="navbar">
-        <div class="container flex">
-            <h1 class="Logo card2 text-center"><a href="index.html">Tonny's Executive Barbershop & Spa</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <%- include("./partials/nav.ejs")%>
 
     <!-- About Us -->
     <section>
@@ -77,26 +66,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer bg-dark py-5">
-        <div class="container grid grid-3">
-            <div>
-                <h1>Tonny's Executive Barbershop & Spa</h1>
-                <p>Copyright &copy; 2021</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-            <div class="social">
-                <a href="https://www.facebook.com/TonnysGroomingServices" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-            </div>
-        </div>
-    </footer>
+    <%- include("./partials/footer.ejs")%>
 
 </body>
 </html>
